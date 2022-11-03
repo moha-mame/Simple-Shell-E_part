@@ -18,6 +18,9 @@ int main(void)
 		read = getline(&buffer, &len, stdin);
 		if (read != EOF)
 			printf("%s", buffer);
+      else
+      exit(1);
 	}
 	return (0);
 }
+//https://linuxhint.com/getline-function-c//

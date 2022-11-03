@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/**
- *main-prototype
- *@ac:argument 1
- *@av:argument 2
- *Return: 0
- */
+
 int main(int __attribute__((__unused__))ac, char **av)
 {
 	int i = 0;
@@ -16,4 +11,4 @@ int main(int __attribute__((__unused__))ac, char **av)
 	}
 	printf("\n");
 	return (0);
-}
+}//** https://naimcprogram.blogspot.com/2016/04/c-program-to-print-all-arguments-passed.html** //
